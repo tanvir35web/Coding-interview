@@ -18,6 +18,9 @@ let merged = mergeStrings(word1, word2);
 console.log(merged);
 
 
+
+
+
 // let word1 = "abcd";
 // let word2 = "pq";
 // let merged = word1.concat(word2).split("").join("");
