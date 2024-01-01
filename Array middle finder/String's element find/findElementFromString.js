@@ -2,16 +2,19 @@
 
 const str = "asdsaldasd";
 
-let counter = 0;
+let counterForS = 0;
+let counterForD = 0;
 
 for (i = 0; i < str.length; i++) {
   if (str[i] === "s") {
-    if(str[i+1] === "d"){
-        counter ++;
-    }
+    counterForS++;
+  }
+  if (str[i] === "d") {
+    counterForD++;
   }
 }
 console.log(str);
-console.log(counter);
+console.log(counterForS);
+console.log(counterForD);
 
 
