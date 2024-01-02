@@ -5,6 +5,3 @@ for(let i=0; i < letter.length; i++) {
     console.log(result);
 }
 
-for(j=0; j < result.length; j++){
-    if()
-}
