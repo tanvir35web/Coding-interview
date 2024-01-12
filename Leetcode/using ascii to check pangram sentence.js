@@ -13,4 +13,5 @@ function isPangram(sentence) {
   }
   return true;
 }
+
 console.log(isPangram("abcdefghijklmnopqrstuvwxyz"));
