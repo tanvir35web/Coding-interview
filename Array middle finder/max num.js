@@ -10,5 +10,5 @@ function minValue(arr) {
     return min;
 }
 
-var arr = [4, 12, 3, 8, 0, -25,, 106, 56];
+var arr = [4, 12, 3, 8, 0, -25, 106, 56];
 console.log(minValue(arr));
