@@ -11,7 +11,6 @@ function maxWords(sentences) {
       }
     }
     return maxCount;
-
   }
 
 
