@@ -1,16 +1,18 @@
-const str = ' a a a a b s s d d d s ';
+const str = ' abcabcacxddf';
 
-const Count = {};
+const count = {};
 
 for (let i = 0; i < str.length; i++) {
   const letter = str[i];
 
   if (letter !== ' ') {
-    Count[letter] = (Count[letter] || 0) + 1;
+    count[letter] = (count[letter] || 0) + 1; // ( and Operator || ) return first value if the value is Truthy, Otherwise it's returns second value.
   }
 }
 
+console.log(count);
 
-for (const letter in Count) {
-  console.log(`${letter}:${Count[letter]}`);
-}
+
+// for (const letter in Count) {
+//   console.log(`${letter}:${Count[letter]}`);
+// }
