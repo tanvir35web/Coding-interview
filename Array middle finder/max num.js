@@ -1,13 +1,13 @@
 
 function minValue(arr) {
-    let min = arr[0];
+    let max = arr[0];
 
     for(i=0; i < arr.length; i++) {
-        if(arr[i] < min) {
-            min = arr[i];
+        if(arr[i] > max) {
+            max = arr[i];
         }
     }
-    return min;
+    return max;
 }
 
 var arr = [4, 12, 3, 8, 0, -25, 106, 56];
