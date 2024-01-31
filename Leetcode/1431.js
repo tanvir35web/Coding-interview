@@ -16,5 +16,5 @@ var kidsWithCandies = function (candies, extraCandies) {
     return result;
 };
 
-candies = [2, 8, 7];
-console.log(kidsWithCandies(candies, 1));
+candies = [12, 8, 7, 9, 1];
+console.log(kidsWithCandies(candies, 5));
