@@ -21,6 +21,7 @@ var leftRightDifference = function (nums) {
     }
 
     for (i = 0; i < nums.length; i++) {
+        
         if (leftSumArr[i] > newRightSumArr[i]) {
             result = leftSumArr[i] - newRightSumArr[i];
         } else {
@@ -30,6 +31,7 @@ var leftRightDifference = function (nums) {
     }
 
     return resultArr;
+
 };
 
-console.log(leftRightDifference([1]));
+console.log(leftRightDifference([10, 4, 8, 3]));
