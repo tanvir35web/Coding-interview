@@ -3,11 +3,11 @@ function monthlySavings(arr, num) {
     paymentsArr = [];
     sum = 0 ;
     savings = 0;
-    
+
     if (Array.isArray(arr) && typeof num === "number") {
         for (i = 0; i < arr.length; i++) {
             if (arr[i] >= 3000) {
-                let afterCuttingTex = arr[i] - arr[i] * 0.2; 
+                let afterCuttingTex = arr[i] - arr[i] * 0.2;
                 paymentsArr.push(afterCuttingTex);
             } else {
                 paymentsArr.push(arr[i]);
@@ -29,4 +29,6 @@ function monthlySavings(arr, num) {
     }
 }
 
-console.log(monthlySavings(400, [2,4]));
+console.log(monthlySavings([200,4],100));
+
+
