@@ -1,4 +1,4 @@
-const arr = [20, 10, 505, 0, -5, 50, 3, 2]
+const arr = [20, 10, 505, 0, -5, 50, 4, 2]
 
 function minFind() {
     let min = arr[0];
