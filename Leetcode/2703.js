@@ -5,6 +5,8 @@ var argumentsLength = function(...args) {
        count ++;
     }
     return count;
+
+    // return args.length;
 };
 
 
