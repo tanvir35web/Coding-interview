@@ -14,13 +14,21 @@ function wordOccarance(str) {
 
     //store every word standalone and checking every char, if already exist the count + 1  the current word otherwise set the value 1
 
-    if(char in hashMap){
-      hashMap[char] = hashMap[char] + 1;
-    } else {
-      hashMap[char] = 1;
-    }
-  }
+    // 1st way 
+    // if(char in hashMap){
+    //   hashMap[char] = hashMap[char] + 1;
+    // } else {
+    //   hashMap[char] = 1;
+    // } 
 
+
+    // 2nd way 
+    // char in hashMap ?  hashMap[char] = hashMap[char] + 1 :  hashMap[char] = 1;
+
+    hashMap[char] = (hashMap[char] || 0) + 1;
+
+  }
+  
   //return the object
   return hashMap;
 
